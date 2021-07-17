@@ -1,0 +1,15 @@
+.element {
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 282px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .element {
+        margin: 0px auto 0px auto;
+    }
+  }

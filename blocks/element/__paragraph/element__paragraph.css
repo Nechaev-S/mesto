@@ -1,0 +1,14 @@
+.element__paragraph {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
+  margin: 24px 21px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: start;
+  max-width: 190px;
+}

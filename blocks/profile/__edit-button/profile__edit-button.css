@@ -1,0 +1,21 @@
+.profile__edit-button {
+    background: url(../../../images/pencel.png);
+    background-repeat: no-repeat;
+    padding: 11px;
+    border: 1px solid #FFFFFF;
+    margin: 0 0 8px 24px;
+    background-position: 6px;
+    width: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .profile__edit-button {
+      font-size: 27px;
+      line-height: 33px;
+      text-align: center;
+      margin: 0 0 5px 13px;
+      width: 7px;
+      padding: 8px;
+      background-position: 3px;
+    }
+  }
