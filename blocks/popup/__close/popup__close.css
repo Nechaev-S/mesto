@@ -7,7 +7,6 @@ background: transparent url(../../../images/CloseIcon.png)
 border: none;
 top: -40px;
 right: -40px;
-/* transform: rotate(90deg); */
 transition: 0.3s;
 padding: 0;
 margin: 0;
@@ -18,3 +17,14 @@ transition: 1s;
 .popup__close:hover {
 opacity: 0.6;
 }
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .popup__close {
+        width: 20px;
+        height: 20px;
+        top: -31px;
+        right: 0px;
+        background-size: contain;
+    }
+  }

@@ -10,3 +10,10 @@
     padding: 10px;
     color: #000000;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .popup {
+        max-width: 282px;
+        min-height: 322px;
+    }
+  }
