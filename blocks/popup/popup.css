@@ -1,0 +1,31 @@
+@import url("./__close/popup__close.css");
+@import url("./__content/popup__content.css");
+@import url("./_is-opened/popup_is-opened.css");
+@import url("./__title/popup__title.css");
+@import url("./__form.css/popup__form.css");
+@import url("./__save-button/popup__save-button.css");
+@import url("./__text/popup__text.css");
+@import url("./__title/popup__title.css");
+@import url("./__text/_check_job/popup__text_check_job.css");
+@import url("./__text/_check_name/popup__text_check_name.css");
+
+
+
+
+
+
+.popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* bottom: 156px; */
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: none;
+}

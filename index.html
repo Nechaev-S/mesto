@@ -16,11 +16,9 @@
   <img src="./images/avatar.png" alt="Аватар" class="profile__avatar">
   <div class="profile__info"> 
       <h1 class="profile__name">Жак-Ив Кусто</h1>
-      <!-- <img src="./images/pencel.png" alt="изменить профиль" class="profile__edit-button"> -->
       <button class="profile__edit-button"></button>
       <p class="profile__job">Исследователь океана</p>
   </div>
-  <!-- <img src="./images/plus.png" alt="добавить" class="profile__add-button"> -->
   <button class="profile__add-button"></button>
 </section>
       <section class="elements">
@@ -59,5 +57,19 @@
     <footer class="footer">
       <p class="footer__copyright">&copy; 2021. Сергей Нечаев</p>
     </footer>
+    <div class="popup">
+      <div class="popup__content">
+        <form class="popup__form">
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <input class="popup__text popup__text_check_name" placeholder="Введите своё имя" type="text" required="">
+          <input class="popup__text popup__text_check_job" placeholder="Род занятий" type="text" required="">
+          <button class="popup__save-button">Сохранить</button>
+        </form>
+        <button type="button" class="popup__close"></button>
+      </div>
+    </div>
   </body>
+  <script src="./scripts/index.js" defer></script>
 </html>
+
+<!-- не забыть закинуть шрифт интер медиум -->

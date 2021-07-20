@@ -6,6 +6,12 @@
     margin: auto 0 auto auto;
     padding: 23px 73px;
     width: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.profile__add-button:hover {
+  opacity: 0.6;
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .profile__add-button {

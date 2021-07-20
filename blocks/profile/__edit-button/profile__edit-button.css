@@ -6,8 +6,13 @@
     margin: 0 0 8px 24px;
     background-position: 6px;
     width: 10px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
+.profile__edit-button:hover {
+  opacity: 0.8;
+}
 @media (min-width: 320px) and (max-width: 767px) {
     .profile__edit-button {
       font-size: 27px;
