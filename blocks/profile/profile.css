@@ -1,19 +1,17 @@
 .profile {
-    max-width: 880px;
-    display: flex;
-    max-width: 880px;
-    margin: 40px auto 51px auto;
+  max-width: 880px;
+  display: flex;
+  max-width: 880px;
+  margin: 40px auto 51px auto;
 }
-
 @media (min-width: 768px) and (max-width: 900px) {
-    .profile {
-        margin: 40px auto 51px 40px;
-    }
+  .profile {
+    margin: 40px auto 51px 40px;
   }
-
+}
 @media (min-width: 320px) and (max-width: 767px) {
-    .profile {
-        flex-direction: column;
-        margin: 42px 0 35px 0;
-    }
+  .profile {
+    flex-direction: column;
+    margin: 42px 0 35px 0;
   }
+}

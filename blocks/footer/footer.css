@@ -1,10 +1,9 @@
 .footer {
-    max-width: 880px;
-    margin: 67px auto 0 auto;
+  max-width: 880px;
+  margin: 67px auto 0 auto;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-    .footer {
-        margin: 48px 0 0px 19px;
-
-    }
+  .footer {
+    margin: 48px 0 0px 19px;
   }
+}

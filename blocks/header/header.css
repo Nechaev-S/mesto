@@ -7,10 +7,9 @@
 }
 @media (min-width: 768px) and (max-width: 900px) {
   .header {
-      margin: 50px auto 0 40px;
+    margin: 50px auto 0 40px;
   }
 }
-
 @media (min-width: 320px) and (max-width: 767px) {
   .header {
     margin: 29px auto 0 auto;

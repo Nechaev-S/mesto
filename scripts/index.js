@@ -5,6 +5,7 @@ const popup = document.querySelector(".popup");
 
 function toggLePopup() {
   popup.classList.toggle("popup_is-opened");
+  // popupOpen();
 }
 
 popupButton.addEventListener("click", toggLePopup);
@@ -28,5 +29,15 @@ function formSubmitHandler(evt) {
   profileJob.textContent = jobInput.value;
   popupClose();
 }
+
+// const defoultName = "Жак-Ив Кусто";
+// const defoultJob = "Исследователь океана";
+
+// function popupOpen() {
+//   const nameInput = document.querySelector(".popup__text_check_name");
+//   const jobInput = document.querySelector(".popup__text_check_job");
+//   nameInput.value = defoultName;
+//   jobInput.value = defoultJob;
+// }
 
 formElement.addEventListener('submit', formSubmitHandler);

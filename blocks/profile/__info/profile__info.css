@@ -1,15 +1,13 @@
 .profile__info {
-    margin: 0px 0px 0px 24px;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    align-self: end;
-    align-items: end;
+  margin: 0px 0px 0px 24px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-self: end;
+  align-items: end;
 }
-
 @media (min-width: 320px) and (max-width: 767px) {
-    .profile__info {
-        grid-template-columns: 1fr auto 1fr;
-        margin: auto;
-         
-    }
+  .profile__info {
+    grid-template-columns: 1fr auto 1fr;
+    margin: auto;
   }
+}

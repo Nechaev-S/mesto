@@ -6,30 +6,25 @@
 @import url("./__save-button/popup__save-button.css");
 @import url("./__text/popup__text.css");
 @import url("./__title/popup__title.css");
-@import url("./__text/_check_job/popup__text_check_job.css");
-@import url("./__text/_check_name/popup__text_check_name.css");
-
 
 .popup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    display: none;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: none;
 }
-
 @media (min-width: 320px) and (max-width: 767px) {
-    .popup {
-        padding: 0;
-        margin: auto;
-    }
+  .popup {
+    padding: 0;
+    margin: auto;
   }
+}
