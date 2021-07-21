@@ -8,6 +8,12 @@
     align-items: center;
 }
 
+@media (min-width: 768px) and (max-width: 900px) {
+    .element {
+        margin: auto;
+    }
+  }
+
 @media (min-width: 320px) and (max-width: 767px) {
     .element {
         margin: 0px auto 0px auto;

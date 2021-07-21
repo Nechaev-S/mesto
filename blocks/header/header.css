@@ -5,6 +5,12 @@
   border-bottom: 1px solid #545454;
   color: rgba(39, 4, 4, 0.7);
 }
+@media (min-width: 768px) and (max-width: 900px) {
+  .header {
+      margin: 50px auto 0 40px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .header {
     margin: 29px auto 0 auto;

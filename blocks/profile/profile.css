@@ -5,6 +5,12 @@
     margin: 40px auto 51px auto;
 }
 
+@media (min-width: 768px) and (max-width: 900px) {
+    .profile {
+        margin: 40px auto 51px 40px;
+    }
+  }
+
 @media (min-width: 320px) and (max-width: 767px) {
     .profile {
         flex-direction: column;
