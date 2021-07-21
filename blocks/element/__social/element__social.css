@@ -5,4 +5,10 @@
     margin: 0 20px 0 0;
     width: 22px;
     height: 19px;
+    transition: 0.5s;
+    cursor: pointer;
  }
+
+ .element__social:hover {
+    opacity: 0.5;
+  }
