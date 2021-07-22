@@ -5,9 +5,9 @@
     line-height: 17px;
     color: #000000;
     border: none;
-    border-bottom: 1px solid #afa7a7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 0 0 9px 0px;
-    max-width: 358px;
+    width: 358px;
     text-align: left;
     margin: 0 0 27px 26px;
 }
@@ -15,6 +15,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
     .popup__text {
         margin: 0 0 30px 13px;
+        width: 238px;
     }
   }
   

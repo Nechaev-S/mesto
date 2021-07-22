@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Место</title>
-    <link rel="stylesheet" type = "text/css" href="pages/index.css" />
+    <link rel="stylesheet" type="text/css" href="pages/index.css" />
     <link rel="icon" href="./images/fav-icon.svg" type="image/x-icon" />
   </head>
+
   <body class="root">
     <header class="header">
-      <a href="#"><img src="./images/logo-mesto.svg" alt="Лого Место" class="header__logo"/></a>
+      <a href="#"><img src="./images/logo-mesto.svg" alt="Лого Место" class="header__logo" /></a>
     </header>
     <main>
-<section class="profile">
-  <img src="./images/avatar.png" alt="Аватар" class="profile__avatar">
-  <div class="profile__info"> 
-      <h1 class="profile__name">Жак-Ив Кусто</h1>
-      <button type="button" class="profile__edit-button"></button>
-      <p class="profile__job">Исследователь океана</p>
-  </div>
-  <button type="button" class="profile__add-button"></button>
-</section>
+      <section class="profile">
+        <img src="./images/avatar.png" alt="Фото профиля" class="profile__avatar">
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button type="button" class="profile__edit-button"></button>
+          <p class="profile__job">Исследователь океана</p>
+        </div>
+        <button type="button" class="profile__add-button"></button>
+      </section>
       <section class="elements">
-        <div class="element">
-          <img src="./images/karachaevsk.png" alt="Карачаевск">
-          <p class="element__paragraph">Карачаевск</p>
-          <div class="element__social"></div>
-        </div>
-        <div class="element">
-          <img src="./images/elbrus.png" alt="Эльбрус">
-          <p class="element__paragraph">Гора Эльбрус</p>
-          <div class="element__social"></div>
-        </div>
-        <div class="element">
-          <img src="./images/dombay.png" alt="Домбай">
-          <p class="element__paragraph">Домбай</p>
-          <div class="element__social"></div>
-        </div>
-        <div class="element">
-          <img src="./images/elbrus.png" alt="Эльбрус">
-          <p class="element__paragraph">Эльбрус</p>
-          <div class="element__social"></div>
-        </div>
-        <div class="element">
-          <img src="./images/dombay.png" alt="Домбай">
-          <p class="element__paragraph">Домбай</p>
-          <div class="element__social"></div>
-        </div>
-        <div class="element">
-          <img src="./images/karachaevsk.png" alt="Карачаевск">
-          <p class="element__paragraph">Карачаево-Черкесия</p>
-          <div class="element__social"></div>
-        </div>
+        <article class="element">
+          <img src="./images/karachaevsk.png" alt="Фото строений города Карачаевск">
+          <h2 class="element__paragraph">Карачаевск</h2>
+          <button type="button" class="element__social"></button>
+        </article>
+        <article class="element">
+          <img src="./images/elbrus.png" alt="Фото горы Эльбрус">
+          <h2 class="element__paragraph">Гора Эльбрус</h2>
+          <button type="button" class="element__social"></button>
+        </article>
+        <article class="element">
+          <img src="./images/dombay.png" alt="Фото гор города Домбай">
+          <h2 class="element__paragraph">Домбай</h2>
+          <button type="button" class="element__social"></button>
+        </article>
+        <article class="element">
+          <img src="./images/elbrus.png" alt="Фото горы Эльбрус">
+          <h2 class="element__paragraph">Эльбрус</h2>
+          <button type="button" class="element__social"></button>
+        </article>
+        <article class="element">
+          <img src="./images/dombay.png" alt="Фото гор города Домбай">
+          <h2 class="element__paragraph">Домбай</h2>
+          <button type="button" class="element__social"></button>
+        </article>
+        <article class="element">
+          <img src="./images/karachaevsk.png" alt="Фото строений города Карачаевск">
+          <h2 class="element__paragraph">Карачаево-Черкесия</h2>
+          <button class="element__social"></button>
+        </article>
       </section>
     </main>
     <footer class="footer">
@@ -59,15 +61,16 @@
     </footer>
     <div class="popup">
       <div class="popup__content">
-        <form class="popup__form" method="get">
+        <form name="FormPopup" class="popup__form" method="post">
           <h2 class="popup__title">Редактировать профиль</h2>
-          <input class="popup__text popup__text_check_name" placeholder="Жак-Ив Кусто" type="text" required="">
-          <input class="popup__text popup__text_check_job" placeholder="Исследователь океана" type="text" required="">
+          <input class="popup__text popup__text_check_name" placeholder="Жак-Ив Кусто" type="text" value="" required="">
+          <input class="popup__text popup__text_check_job" placeholder="Исследователь океана" type="text" value="" required="">
           <button type="submit" class="popup__save-button">Сохранить</button>
         </form>
         <button type="button" class="popup__close"></button>
       </div>
     </div>
+    <script src="./scripts/index.js" defer></script>
   </body>
-  <script src="./scripts/index.js" defer></script>
+
 </html>

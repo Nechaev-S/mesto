@@ -7,3 +7,9 @@
     margin: 48px 0 0px 19px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    margin-left: 40px;
+  }
+}
