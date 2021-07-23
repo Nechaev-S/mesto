@@ -11,8 +11,9 @@
   color: #000000;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .popup {
+  .popup__content  {
     max-width: 282px;
     min-height: 322px;
+    margin: 6px 0 0 0;
   }
 }
