@@ -8,7 +8,6 @@ const profileName = document.querySelector(".profile__name");
 const profileJob = document.querySelector(".profile__job");
 
 function toggLePopup() {
-  if (!popup.classList.contains("popup_is-opened"));
   popup.classList.toggle("popup_is-opened");
   
   if (popup.classList.contains("popup_is-opened")) {
